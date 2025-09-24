@@ -54,8 +54,14 @@
         "ProjectSettings/": true,
         "UserSettings/": true,
         "temp/": true,
+        "**/obj": true,
+        "**/bin": true,
         "Temp/": true
     },
+    "search.exclude": {
+    "**/obj": true,
+    "**/bin": true
+  },
     "files.associations": {
         "*.asset": "yaml",
         "*.meta": "yaml",
